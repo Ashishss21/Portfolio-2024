@@ -1,10 +1,11 @@
 import { Html, useProgress } from "@react-three/drei";
+import { RotatingTriangles } from "react-loader-spinner";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (
     <Html
-      as='div'
+      as="div"
       center
       style={{
         display: "flex",
@@ -13,17 +14,15 @@ const CanvasLoader = () => {
         flexDirection: "column",
       }}
     >
-      <span className='canvas-loader'></span>
-      <p
-        style={{
-          fontSize: 14,
-          color: "#F1F1F1",
-          fontWeight: 800,
-          marginTop: 40,
-        }}
-      >
-        {progress.toFixed(2)}%
-      </p>
+      <RotatingTriangles
+        visible={true}
+        height="80"
+        width="80"
+        color="#4fa94d"
+        ariaLabel="rotating-triangles-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+      />
     </Html>
   );
 };
