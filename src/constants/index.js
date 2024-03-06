@@ -5,24 +5,28 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  api,
+  git,
+  jira,
+  c,
+  postman,
+  python,
+  sql,
+  cofiato,
+  techbeans,
+  thementor,
+  email,
+  linkedin,
+  twitter,
+  instagram
 } from "../assets";
 
 export const navLinks = [
@@ -54,20 +58,12 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning",
     icon: creator,
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+const technologies = [  
   {
     name: "JavaScript",
     icon: javascript,
@@ -79,10 +75,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,10 +89,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -109,151 +97,188 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "api",
+    icon: api,
+  },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "jira",
+    icon: jira,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "sql",
+    icon: sql,
   },
 ];
 
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Development Intern",
+    company_name: "Cofiato",
+    icon: cofiato,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2021 - June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed dynamic websites using React.js, HTML, and CSS, ensuring optimal user experiences.",
+      "Utilized Google Cloud Platform (GCP) for efficient deployment and management of web applications.",
+      "Contributed to React Native app development, collaborating with teams to enhance functionality and user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Machine Learning Intern",
+    company_name: "Techbeans Solutions",
+    icon: techbeans,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented a CNN model for COVID-19 analysis utilizing Machine Learning techniques.",
+      "Conducted comprehensive data preprocessing and analysis on both training and testing datasets to ensure model accuracy and reliability."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developement Intern",
+    company_name: "TheMentor",
+    icon: thementor,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Created React.js front-end apps for intuitive user interfaces.",
+      "Developed Django APIs for efficient data management.",
+      "Utilized AWS for reliable deployment and scalability.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
+
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "The research paper outlines a hybrid methodology utilizing classification algorithms for heart disease detection. By integrating diverse algorithms, the approach aims to enhance accuracy and reliability in diagnosis, potentially advancing the effectiveness of heart disease detection methods.",
+    name: "Hybrid Approach for heart disease detection using classification algorithms",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Task Management App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built using React and Redux efficiently organizes and tracks tasks with intuitive UI and centralized state management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Job Tracking App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A React Native job tracking app offers users a streamlined mobile interface for efficiently managing their job search activities.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rest native",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Travel Log App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A MERN-based travel log app, similar to Airbnb, allows users to discover, book, and review accommodations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "E-Commerce App",
+    description:
+      "A React Native app offers shopping experience, enabling users to browse, buy, and manage purchases conveniently.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Plantify",
+    description:
+      "React and Bootstrap e-commerce platform for seamless plant purchasing, emphasizing responsiveness and customization.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "To Do App",
+    description:
+      "A task management app built with Expo and NativeBase, featuring task creation, completion, and display functionalities.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NativeBase",
         color: "pink-text-gradient",
       },
     ],
@@ -262,4 +287,27 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socials = [
+  {
+    name : "email",
+    icon : email,
+    link : "abc.com"
+  },
+  {
+    name : "linkedin",
+    icon : linkedin,
+    link : "abc.com"
+  },
+  {
+    name : "twitter",
+    icon : twitter,
+    link : "abc.com"
+  },
+  {
+    name : "instagram",
+    icon : instagram,
+    link : "abc.com"
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, socials };

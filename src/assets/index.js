@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./a.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,28 +7,33 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import api from "./tech/api.png";
+import git from "./tech/git.png"
+import jira from "./tech/jira.png"
+import c from "./tech/c.png"
+import postman from "./tech/postman.jpg"
+import python from "./tech/python.png"
+import sql from "./tech/sql.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import cofiato from "./company/cofiato.jpeg"
+import techbeans from "./company/techbeans.jpg"
+import thementor from "./company/thementorlive_logo.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import email from "./socials/email.png";
+import instagram from "./socials/instagram.png";
+import linkedin from "./socials/linkedin.png";
+import twitter from "./socials/twitter (1).png";
 
 export {
   logo,
@@ -39,24 +44,28 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
+  api,
   git,
-  html,
+  jira,
+  c,
+  postman,
+  python,
+  sql,
+  figma,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
+  cofiato,
+  techbeans,
+  thementor,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  email,
+  instagram,
+  linkedin,
+  twitter
 };
