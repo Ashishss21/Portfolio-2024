@@ -26,10 +26,10 @@ const Contact = ({name, icon, link}) => {
         >
           <div className="mt-1 flex flex-wrap">
             <p className="text-white tracking-wider p-4 w-16 h-16">
-              <a href="#"><img src={linkedin} alt="linkedin"/></a>
+              <a href="https://www.linkedin.com/in/ashish-sengar212/" target="_blank"><img src={linkedin} alt="linkedin"/></a>
             </p>
             <p className="text-white tracking-wider p-4 w-16 h-16">
-              <a href="#"><img src={email} alt="linkedin"/></a>
+              <a href="mailto:ashish.sengar2106@gmail.com" target="_blank"><img src={email} alt="linkedin"/></a>
             </p>
             <p className="text-white tracking-wider p-4 w-16 h-16">
               <a href="#"><img src={twitter} alt="linkedin"/></a>
