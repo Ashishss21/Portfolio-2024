@@ -18,10 +18,25 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
+        borderRadius: "16px",
+        padding: "24px",
+        boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
+        border: "1px solid rgba(255, 255, 255, 0.1)",
+        minWidth: "400px",
+        maxWidth: "90vw",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ 
+        borderRight: "7px solid #232631",
+        borderTop: "7px solid transparent",
+        borderBottom: "7px solid transparent",
+      }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      dateClassName="text-white font-semibold text-[16px]"
+      iconStyle={{ 
+        background: experience.iconBg,
+        boxShadow: "0 0 20px rgba(0, 0, 0, 0.3)",
+        border: "3px solid rgba(255, 255, 255, 0.1)",
+      }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
@@ -32,26 +47,29 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
+      <div className="mb-6">
+        <h3 className='text-white text-[22px] font-bold mb-2 leading-tight'>
+          {experience.title}
+        </h3>
+        <p className='text-secondary text-[16px] font-semibold mb-1'>
           {experience.company_name}
         </p>
+        <div className="w-16 h-1 bg-tertiary rounded-full mt-3"></div>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <div className='space-y-4'>
         {experience.points.map((point, index) => (
-          <li
+          <div
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='flex items-start space-x-3 group'
           >
-            {point}
-          </li>
+            <div className='flex-shrink-0 w-2 h-2 bg-tertiary rounded-full mt-2 group-hover:bg-white transition-colors duration-300'></div>
+            <p className='text-white-100 text-[15px] leading-relaxed tracking-wide flex-1'>
+              {point}
+            </p>
+          </div>
         ))}
-      </ul>
+      </div>
     </VerticalTimelineElement>
   );
 };
@@ -69,14 +87,16 @@ const Experience = () => {
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+        <div className="max-w-6xl mx-auto w-full">
+          <VerticalTimeline lineColor="#232631">
+            {experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
+          </VerticalTimeline>
+        </div>
       </div>
     </>
   );

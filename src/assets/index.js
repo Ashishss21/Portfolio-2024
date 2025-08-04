@@ -7,6 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import project3 from "./GENAI.png";
+import project2 from "./project2.png";
+import project1 from "./project3.png";
+
+
 import figma from "./tech/figma.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -25,6 +30,7 @@ import sql from "./tech/sql.png"
 import cofiato from "./company/cofiato.jpeg"
 import techbeans from "./company/techbeans.jpg"
 import thementor from "./company/thementorlive_logo.jpeg"
+import vclogo from "./company/vc-logo.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +64,7 @@ export {
   reactjs,
   tailwind,
   cofiato,
+  vclogo,
   techbeans,
   thementor,
   typescript,
@@ -65,6 +72,9 @@ export {
   jobit,
   tripguide,
   email,
+  project3,
+  project2,
+  project1,
   instagram,
   linkedin,
   twitter

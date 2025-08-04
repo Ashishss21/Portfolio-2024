@@ -38,7 +38,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         DevOps Engineer & AWS Cloud Engineer with 1 year of hands-on experience in designing, deploying, and maintaining scalable, secure cloud solutions on Amazon Web Services (AWS). Proficient in automating infrastructure using Infrastructure as Code (IaC) tools like CloudFormation and Terraform, and building robust CI/CD pipelines to streamline application delivery and operational efficiency. Skilled in monitoring, logging, and optimizing system performance for high availability and resilience.
-        <br className="sm:block hidden" />
+        <br className="sm:block hidden" /><br className="sm:block hidden" />
         Experienced in developing full-stack applications using JavaScript, Node.js, and React, with a keen focus on integrating cloud-native practices. Passionate about modern DevOps culture, containerization (Docker), and orchestration (Kubernetes). Also adept at leveraging Generative AI services via Amazon Bedrock to embed intelligent capabilities into cloud solutions. Thrive in agile, fast-paced environments, solving complex problems through automation, collaboration, and continuous improvement.
       </motion.p>
 

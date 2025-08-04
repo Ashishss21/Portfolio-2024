@@ -31,12 +31,6 @@ const Contact = ({name, icon, link}) => {
             <p className="text-white tracking-wider p-4 w-16 h-16">
               <a href="mailto:ashish.sengar2106@gmail.com" target="_blank"><img src={email} alt="linkedin"/></a>
             </p>
-            <p className="text-white tracking-wider p-4 w-16 h-16">
-              <a href="#"><img src={twitter} alt="linkedin"/></a>
-            </p>
-            <p className="text-white tracking-wider p-4 w-16 h-16">
-              <a href="#"><img src={instagram} alt="linkedin"/></a>
-            </p>
           </div>
         </motion.div>
       </motion.div>
