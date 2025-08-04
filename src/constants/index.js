@@ -46,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Cloud Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Generative AI",
     icon: backend,
   },
   {
-    title: "Machine Learning",
+    title: "Full Stack Development",
     icon: creator,
   },
 ];
@@ -145,6 +145,19 @@ const experiences = [
   },
   {
     title: "Web Developement Intern",
+    company_name: "TheMentor",
+    icon: thementor,
+    iconBg: "#383E56",
+    date: "August 2021 - September 2021",
+    points: [
+      "Created React.js front-end apps for intuitive user interfaces.",
+      "Developed Django APIs for efficient data management.",
+      "Utilized AWS for reliable deployment and scalability.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Cloud Support Engineer",
     company_name: "TheMentor",
     icon: thementor,
     iconBg: "#383E56",
